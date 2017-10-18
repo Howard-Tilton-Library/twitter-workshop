@@ -30,9 +30,11 @@ For Windows users:
 
     cd c:\Users\your-user-name\Desktop\twitter-workshop-master
 
-where you need to replace your-user-name with your actual user name on your computer! Next type:
+where you need to replace your-user-name with your actual user name on your computer! To get started with the tutorial type:
 
     ipython notebook
+
+This will open a new tab in your web browser with the same content as the github readme.md; however, the content is interactive through Jupyter (See http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). 
 
 If this returns an error message such as "Command not found", please try running with:
 
@@ -53,7 +55,8 @@ The massive amounts of data require new tools, such as robust data-retrieval and
 
 We will create our applications in the programming language Python. Python is widely used within many scientific domains nowadays and the language is readily accessible to scholars from the Humanities. Python is an excellent choice for dealing with (linguistic as well as literary) textual data, which is so typical of the Humanities. This workshop is explicitly not meant to be an introduction to programming nor does it require any programming skills. However, in order to better understand and appreciate the various steps required to creating our scrape application, it is necessary to at least have *some* knowledge about what computer code looks like. Therefore, in the section I will first give you a very brief introduction into the most important concepts in programming: 'variables' and 'values'. The main goal of this introduction is to familiarize you with computer code and teach you how to *read* code.
 
-## Python Introduction
+## Python Introduction.  From this point forward use the newly open Jupyter tab.  Jupyter documents contain both rich text elements and executable computer code. To run each piece of code within in an individual cell (indicated by In []), click on the box and hit the play/"run cell, select below button" in the tool panel at the top of the page.  Should you want to redo the whole exercise, you must clear your work by selecting Kernel > Restart & Clear Output. 
+## NOTE: If you close the command window, Jupyter will disconnect and no longer be interactive. 
 
 ```python
 >>> print("There ain't no such thing as a free lunch.")
